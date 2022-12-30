@@ -1,0 +1,3 @@
+[submodule "myblog/public"]
+	path = myblog/public
+	url = https://github.com/0xdia/0xdia.github.io.git
