@@ -7,7 +7,7 @@ theme="blackburn"
 
 
 # Shown in the side menu
-copyright = "&copy; 2022. All rights reserved."
+# copyright = "&copy; 2022. All rights reserved."
 canonifyurls = true
 paginate = 5
 
@@ -65,7 +65,7 @@ paginate = 5
   # by entering your username or ID.
 
   # SNS microblogging
-  twitter = "*"
+  twitter = "DhaiZebbiche"
   #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
   #facebook = "*"
   #googleplus = "*"
@@ -92,12 +92,13 @@ paginate = 5
 
   # Techie
   github = "0xdia/"
-  gitlab = "*"
-  bitbucket = "*"
-  stackoverflow = "*"
+  #gitlab = "*"
+  #bitbucket = "*"
+  stackoverflow = "10952798/dhai-eddine-zebbiche"
   #serverfault = "*"
 
   # Gaming
+  discord = "642108323495411722"
   #steam = "*"
   #mobygames = "*"
 
