@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Dhai Eddine Zebbiche's blog"
 author = "Dhai Eddine Zebbiche"
 
-theme="blackburn"
+# theme="blackburn"
 
 
 # Shown in the side menu

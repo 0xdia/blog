@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+<style>
+  @import url('https://fonts.cdnfonts.com/css/fipps');
+</style>
+
+<div class="header">
+  <h1 style="font-family: Fipps;">{{ .Title }}</h1>
+  <h2>{{ .Site.Params.subtitle }}</h2>
+</div>
+
+<div class="content">
+  {{ range ( .Paginate (where .Site.RegularPages "Type" "posts")).Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+
+</div>
+
+{{ partial "footer.html" . }}
