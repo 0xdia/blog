@@ -33,6 +33,9 @@ paginate = 5
   [params.piwikAnalytics]
     siteid = 2
     piwikroot = "//analytics.example.com/"
+  
+  [params.navigation]
+    logo = "static/gumball.png"
 
 [menu]
   # Shown in the side menu.
@@ -67,14 +70,11 @@ paginate = 5
   # SNS microblogging
   twitter = "DhaiZebbiche"
   #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-  #facebook = "*"
   #googleplus = "*"
   #weibo = "*"
   #tumblr = "*"
 
   # SNS photo/video sharing
-  #instagram = "*"
-  #flickr = "*"
   #photo500px = "*"
   #pinterest = "*"
   #youtube = "*"
@@ -88,7 +88,7 @@ paginate = 5
 
   # SNS news
   reddit = "dhiaa-z"
-  hackernews = "*"
+  # hackernews = "*"
 
   # Techie
   github = "0xdia/"
